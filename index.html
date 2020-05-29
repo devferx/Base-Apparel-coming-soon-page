@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Base Apparel coming soon page</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="nav">
+      <img class="nav--img" src="./images/logo.svg" alt="Logo" />
+    </nav>
+    <main class="main">
+      <section class="main-section">
+        <img class="main-section--logo" src="./images/logo.svg" alt="Logo" />
+        <h1 class="main-section--title">
+          We're <br />
+          <span class="bold">
+            coming <br />
+            soon
+          </span>
+        </h1>
+        <p class="main-section--paragraph">
+          Hello fellow shoppers! We're currently building our new fashion store.
+          Add your email below to stay up-to-date with announcements and our
+          launch deals.
+        </p>
+        <form class="main-section__form">
+          <input
+            class="main-section__form--input"
+            type="tex"
+            id="email-input"
+            name="email"
+            placeholder="Email Address"
+          />
+          <img
+            id="alert-icon"
+            class="main-section__form--alert"
+            src="./images/icon-error.svg"
+            alt="error-icon"
+          />
+          <button id="submit" class="main-section__form--btn">
+            <img src="./images/icon-arrow.svg" alt="Arrow" />
+          </button>
+        </form>
+        <p class="main-section--label" for="email">
+          Please provide a valid email
+        </p>
+      </section>
+      <div class="main--img"></div>
+    </main>
+    <script src="js/app.js"></script>
+  </body>
+</html>
